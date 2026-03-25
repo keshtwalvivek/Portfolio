@@ -172,33 +172,43 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, // Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Frontend Developer",
+      role: "Frontend & Mobile Developer",
       company: "SGI Tech Labs",
-      companylogo: require("./assets/images/sgi.jpg"), // add logo image
+      companylogo: require("./assets/images/sgi.jpg"),
       date: "August 2024 – Present",
-      desc: "Working as a Frontend Developer at SGI Tech Labs, contributing to both web and mobile application development across multiple projects.",
+      desc: "Frontend & Mobile Developer working on scalable web applications using React.js/Next.js and cross-platform mobile apps using React Native.",
       descBullets: [
-        "Worked on web development projects using React.js and Next.js, building responsive and scalable user interfaces.",
-        "Collaborated with backend teams to integrate APIs and improve application performance.",
-        "From April 2025, started working on React Native mobile application development within the same organization.",
-        "Developed and maintained cross-platform mobile features using React Native for production applications."
+        "Built responsive and scalable web applications using React.js and Next.js with focus on performance optimization and reusable architecture.",
+
+        "Integrated REST APIs and collaborated with backend teams to deliver seamless and efficient user experiences.",
+
+        "Developed cross-platform mobile applications using React Native for Android and iOS platforms.",
+
+        "Published mobile application on Google Play Store, handling release builds, app signing, and deployment process.",
+
+        "Implemented reusable components and improved performance across both web and mobile platforms.",
+
+        "Worked in an agile environment, participating in code reviews, debugging, and continuous feature enhancements."
       ]
     },
 
     {
       role: "MERN Stack Developer Intern",
       company: "Think Future Technology",
-      companylogo: require("./assets/images/tft.png"), // add logo image
+      companylogo: require("./assets/images/tft.png"),
       date: "3 Months Internship",
-      desc: "Completed a 3-month internship focused on full-stack web development using the MERN stack.",
+      desc: "Worked on full-stack web development using the MERN stack, building and integrating scalable applications.",
       descBullets: [
-        "Worked on MongoDB, Express.js, React.js, and Node.js to build full-stack web applications.",
-        "Developed REST APIs and integrated them with frontend components.",
+        "Developed full-stack web applications using MongoDB, Express.js, React.js, and Node.js.",
+
+        "Built and integrated REST APIs with frontend components for dynamic data handling.",
+
         "Implemented authentication, CRUD operations, and responsive UI designs.",
-        "Gained hands-on experience working in an agile development environment."
+
+        "Gained hands-on experience with real-world project development in an agile environment."
       ]
     }
   ]
@@ -215,29 +225,28 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/AozoomIndia.png"),
+      projectName: "Aozoom India Erp",
+      projectDesc: "Warranty & Claim Management System",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Aozoom India",
+          url: "https://aozoomclient.srijansynergy.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ssn.jpg"),
+      projectName: "SSN",
+      projectDesc: "Educational Platform",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Sanskrit Shiksha Lokam",
+          url: "https://www.sanskritlokam.com/"
         }
       ]
     }
